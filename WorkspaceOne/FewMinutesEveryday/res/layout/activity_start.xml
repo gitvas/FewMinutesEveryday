@@ -19,8 +19,17 @@
         android:inputType="none"
         android:focusable="false"
         android:text="@string/intro_text"
-        android:textSize="14sp">
+        android:textSize="13sp">
         <requestFocus />
     </EditText>
 
+    <Button
+        android:id="@+id/btnContinue"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText1"
+        android:layout_centerHorizontal="true"
+        android:text="Cool. Lets Go!" 
+        android:background="@drawable/red_button"
+        style ="@style/button_text" />
 </RelativeLayout>
