@@ -6,7 +6,7 @@
     -->
 
     <!-- Application theme. -->
-    <style name="AppBaseTheme" parent="@android:style/Theme.Holo">
+    <style name="AppBaseTheme" parent="@style/Theme.AppCompat">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
     
